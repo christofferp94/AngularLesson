@@ -1,2 +1,2 @@
-<p id="warning">WarningAlert</p>
-<p id="warningAlert">There is too much awesomeness inside this!</p>
+<p [ngStyle]="{backgroundColor: getColor()}"
+[ngClass]="{online: serverStatus === 'online'}">WarningAlert {{ serverId }} is dying!</p>
